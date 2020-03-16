@@ -1,0 +1,1 @@
+mri_convert /data/MRdata/SCA2/data/MASCALCHI_MARIO_20070324/mri/rawavg.mgz /data/MRdata/SCA2/data/MASCALCHI_MARIO_20070324/mri/orig.mgz --conform

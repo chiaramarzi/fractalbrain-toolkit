@@ -1,0 +1,1 @@
+mris_make_surfaces -white NOWRITE -mgz -T1 brain.finalsurfs MASCALCHI_MARIO_20070324 lh

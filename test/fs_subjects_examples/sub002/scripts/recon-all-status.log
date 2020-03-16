@@ -1,0 +1,525 @@
+status file for recon-all
+Wed Apr 13 05:47:31 CEST 2016
+#@# MotionCor Wed Apr 13 05:47:36 CEST 2016
+#@# Talairach Wed Apr 13 05:47:50 CEST 2016
+#@# Talairach Failure Detection Wed Apr 13 05:49:34 CEST 2016
+#@# Nu Intensity Correction Wed Apr 13 05:49:34 CEST 2016
+#@# Intensity Normalization Wed Apr 13 05:50:59 CEST 2016
+#@# Skull Stripping Wed Apr 13 05:53:38 CEST 2016
+#@# EM Registration Wed Apr 13 06:30:14 CEST 2016
+#@# CA Normalize Wed Apr 13 07:07:55 CEST 2016
+#@# CA Reg Wed Apr 13 07:09:51 CEST 2016
+#@# CA Reg Inv Wed Apr 13 10:04:41 CEST 2016
+#@# Remove Neck Wed Apr 13 10:05:47 CEST 2016
+#@# SkullLTA Wed Apr 13 10:07:02 CEST 2016
+#@# SubCort Seg Wed Apr 13 10:33:00 CEST 2016
+#@# Merge ASeg Wed Apr 13 10:53:34 CEST 2016
+#@# Intensity Normalization2 Wed Apr 13 10:53:34 CEST 2016
+#@# Mask BFS Wed Apr 13 10:57:46 CEST 2016
+#@# WM Segmentation Wed Apr 13 10:57:48 CEST 2016
+#@# Fill Wed Apr 13 11:01:00 CEST 2016
+#@# Tessellate lh Wed Apr 13 11:01:52 CEST 2016
+#@# Smooth1 lh Wed Apr 13 11:01:59 CEST 2016
+#@# Inflation1 lh Wed Apr 13 11:02:04 CEST 2016
+#@# QSphere lh Wed Apr 13 11:02:37 CEST 2016
+#@# Fix Topology lh Wed Apr 13 11:06:56 CEST 2016
+#@# Make White Surf lh Wed Apr 13 12:08:47 CEST 2016
+#@# Smooth2 lh Wed Apr 13 12:14:20 CEST 2016
+#@# Inflation2 lh Wed Apr 13 12:14:24 CEST 2016
+#@# Curvature Stats lh Wed Apr 13 12:16:26 CEST 2016
+#@# Sphere lh Wed Apr 13 12:16:30 CEST 2016
+#@# Surf Reg lh Wed Apr 13 13:10:15 CEST 2016
+#@# Jacobian white lh Wed Apr 13 13:35:24 CEST 2016
+#@# AvgCurv lh Wed Apr 13 13:35:27 CEST 2016
+#@# Cortical Parc lh Wed Apr 13 13:35:29 CEST 2016
+#@# Make Pial Surf lh Wed Apr 13 13:36:21 CEST 2016
+#@# Surf Volume lh Wed Apr 13 13:47:28 CEST 2016
+#@# WM/GM Contrast lh Wed Apr 13 13:47:29 CEST 2016
+#@# Parcellation Stats lh Wed Apr 13 13:47:36 CEST 2016
+#@# Cortical Parc 2 lh Wed Apr 13 13:47:53 CEST 2016
+#@# Parcellation Stats 2 lh Wed Apr 13 13:48:53 CEST 2016
+#@# Cortical Parc 3 lh Wed Apr 13 13:49:11 CEST 2016
+#@# Parcellation Stats 3 lh Wed Apr 13 13:50:03 CEST 2016
+#@# Tessellate rh Wed Apr 13 13:50:20 CEST 2016
+#@# Smooth1 rh Wed Apr 13 13:50:27 CEST 2016
+#@# Inflation1 rh Wed Apr 13 13:50:32 CEST 2016
+#@# QSphere rh Wed Apr 13 13:51:01 CEST 2016
+#@# Fix Topology rh Wed Apr 13 13:54:49 CEST 2016
+#@# Make White Surf rh Wed Apr 13 14:55:34 CEST 2016
+#@# Smooth2 rh Wed Apr 13 15:00:47 CEST 2016
+#@# Inflation2 rh Wed Apr 13 15:00:51 CEST 2016
+#@# Curvature Stats rh Wed Apr 13 15:02:47 CEST 2016
+#@# Sphere rh Wed Apr 13 15:02:51 CEST 2016
+#@# Surf Reg rh Wed Apr 13 15:48:23 CEST 2016
+#@# Jacobian white rh Wed Apr 13 16:13:01 CEST 2016
+#@# AvgCurv rh Wed Apr 13 16:13:03 CEST 2016
+#@# Cortical Parc rh Wed Apr 13 16:13:05 CEST 2016
+#@# Make Pial Surf rh Wed Apr 13 16:13:55 CEST 2016
+#@# Surf Volume rh Wed Apr 13 16:24:28 CEST 2016
+#@# WM/GM Contrast rh Wed Apr 13 16:24:28 CEST 2016
+#@# Parcellation Stats rh Wed Apr 13 16:24:35 CEST 2016
+#@# Cortical Parc 2 rh Wed Apr 13 16:24:51 CEST 2016
+#@# Parcellation Stats 2 rh Wed Apr 13 16:25:49 CEST 2016
+#@# Cortical Parc 3 rh Wed Apr 13 16:26:06 CEST 2016
+#@# Parcellation Stats 3 rh Wed Apr 13 16:26:55 CEST 2016
+#@# Cortical ribbon mask Wed Apr 13 16:27:13 CEST 2016
+#@# ASeg Stats Wed Apr 13 16:37:10 CEST 2016
+#@# AParc-to-ASeg Wed Apr 13 16:40:47 CEST 2016
+#@# WMParc Wed Apr 13 16:43:36 CEST 2016
+#@# BA Labels lh Wed Apr 13 16:53:17 CEST 2016
+#@# BA Labels rh Wed Apr 13 16:57:29 CEST 2016
+#@# Ex-vivo Entorhinal Cortex Label lh Wed Apr 13 17:01:39 CEST 2016
+#@# Ex-vivo Entorhinal Cortex Label rh Wed Apr 13 17:01:54 CEST 2016
+recon-all -s MASCALCHI_MARIO_20070324 finished without error at Wed Apr 13 17:02:08 CEST 2016
+
+
+
+New invocation of recon-all 
+
+
+
+status file for recon-all
+Mon Dec 12 11:32:29 CET 2016
+#@# Qdec Cache lh thickness fsaverage Mon Dec 12 11:32:29 CET 2016
+#@# Qdec Cache lh thickness fwhm0 fsaverage Mon Dec 12 11:32:42 CET 2016
+#@# Qdec Cache lh thickness fwhm5 fsaverage Mon Dec 12 11:32:46 CET 2016
+#@# Qdec Cache lh thickness fwhm10 fsaverage Mon Dec 12 11:32:55 CET 2016
+#@# Qdec Cache lh thickness fwhm15 fsaverage Mon Dec 12 11:33:05 CET 2016
+#@# Qdec Cache lh thickness fwhm20 fsaverage Mon Dec 12 11:33:15 CET 2016
+#@# Qdec Cache lh thickness fwhm25 fsaverage Mon Dec 12 11:33:26 CET 2016
+#@# Qdec Cache lh area fsaverage Mon Dec 12 11:33:37 CET 2016
+#@# Qdec Cache lh area fwhm0 fsaverage Mon Dec 12 11:33:54 CET 2016
+#@# Qdec Cache lh area fwhm5 fsaverage Mon Dec 12 11:33:58 CET 2016
+#@# Qdec Cache lh area fwhm10 fsaverage Mon Dec 12 11:34:08 CET 2016
+#@# Qdec Cache lh area fwhm15 fsaverage Mon Dec 12 11:34:17 CET 2016
+#@# Qdec Cache lh area fwhm20 fsaverage Mon Dec 12 11:34:27 CET 2016
+#@# Qdec Cache lh area fwhm25 fsaverage Mon Dec 12 11:34:37 CET 2016
+#@# Qdec Cache lh area.pial fsaverage Mon Dec 12 11:34:47 CET 2016
+#@# Qdec Cache lh area.pial fwhm0 fsaverage Mon Dec 12 11:35:02 CET 2016
+#@# Qdec Cache lh area.pial fwhm5 fsaverage Mon Dec 12 11:35:06 CET 2016
+#@# Qdec Cache lh area.pial fwhm10 fsaverage Mon Dec 12 11:35:15 CET 2016
+#@# Qdec Cache lh area.pial fwhm15 fsaverage Mon Dec 12 11:35:24 CET 2016
+#@# Qdec Cache lh area.pial fwhm20 fsaverage Mon Dec 12 11:35:33 CET 2016
+#@# Qdec Cache lh area.pial fwhm25 fsaverage Mon Dec 12 11:35:44 CET 2016
+#@# Qdec Cache lh volume fsaverage Mon Dec 12 11:35:55 CET 2016
+#@# Qdec Cache lh volume fwhm0 fsaverage Mon Dec 12 11:36:11 CET 2016
+#@# Qdec Cache lh volume fwhm5 fsaverage Mon Dec 12 11:36:16 CET 2016
+#@# Qdec Cache lh volume fwhm10 fsaverage Mon Dec 12 11:36:25 CET 2016
+#@# Qdec Cache lh volume fwhm15 fsaverage Mon Dec 12 11:36:35 CET 2016
+#@# Qdec Cache lh volume fwhm20 fsaverage Mon Dec 12 11:36:45 CET 2016
+#@# Qdec Cache lh volume fwhm25 fsaverage Mon Dec 12 11:36:55 CET 2016
+#@# Qdec Cache lh curv fsaverage Mon Dec 12 11:37:05 CET 2016
+#@# Qdec Cache lh curv fwhm0 fsaverage Mon Dec 12 11:37:17 CET 2016
+#@# Qdec Cache lh curv fwhm5 fsaverage Mon Dec 12 11:37:20 CET 2016
+#@# Qdec Cache lh curv fwhm10 fsaverage Mon Dec 12 11:37:28 CET 2016
+#@# Qdec Cache lh curv fwhm15 fsaverage Mon Dec 12 11:37:37 CET 2016
+#@# Qdec Cache lh curv fwhm20 fsaverage Mon Dec 12 11:37:46 CET 2016
+#@# Qdec Cache lh curv fwhm25 fsaverage Mon Dec 12 11:37:56 CET 2016
+#@# Qdec Cache lh sulc fsaverage Mon Dec 12 11:38:08 CET 2016
+#@# Qdec Cache lh sulc fwhm0 fsaverage Mon Dec 12 11:38:20 CET 2016
+#@# Qdec Cache lh sulc fwhm5 fsaverage Mon Dec 12 11:38:24 CET 2016
+#@# Qdec Cache lh sulc fwhm10 fsaverage Mon Dec 12 11:38:34 CET 2016
+#@# Qdec Cache lh sulc fwhm15 fsaverage Mon Dec 12 11:38:44 CET 2016
+#@# Qdec Cache lh sulc fwhm20 fsaverage Mon Dec 12 11:38:54 CET 2016
+#@# Qdec Cache lh sulc fwhm25 fsaverage Mon Dec 12 11:39:03 CET 2016
+#@# Qdec Cache lh white.K fsaverage Mon Dec 12 11:39:15 CET 2016
+#@# Qdec Cache lh white.H fsaverage Mon Dec 12 11:39:15 CET 2016
+#@# Qdec Cache lh jacobian_white fsaverage Mon Dec 12 11:39:15 CET 2016
+#@# Qdec Cache lh jacobian_white fwhm0 fsaverage Mon Dec 12 11:39:28 CET 2016
+#@# Qdec Cache lh jacobian_white fwhm5 fsaverage Mon Dec 12 11:39:32 CET 2016
+#@# Qdec Cache lh jacobian_white fwhm10 fsaverage Mon Dec 12 11:39:42 CET 2016
+#@# Qdec Cache lh jacobian_white fwhm15 fsaverage Mon Dec 12 11:39:51 CET 2016
+#@# Qdec Cache lh jacobian_white fwhm20 fsaverage Mon Dec 12 11:40:02 CET 2016
+#@# Qdec Cache lh jacobian_white fwhm25 fsaverage Mon Dec 12 11:40:11 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fsaverage Mon Dec 12 11:40:22 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fwhm0 fsaverage Mon Dec 12 11:40:35 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fwhm5 fsaverage Mon Dec 12 11:40:39 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fwhm10 fsaverage Mon Dec 12 11:40:48 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fwhm15 fsaverage Mon Dec 12 11:40:58 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fwhm20 fsaverage Mon Dec 12 11:41:09 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fwhm25 fsaverage Mon Dec 12 11:41:19 CET 2016
+#@# Qdec Cache rh thickness fsaverage Mon Dec 12 11:41:30 CET 2016
+#@# Qdec Cache rh thickness fwhm0 fsaverage Mon Dec 12 11:41:41 CET 2016
+#@# Qdec Cache rh thickness fwhm5 fsaverage Mon Dec 12 11:41:45 CET 2016
+#@# Qdec Cache rh thickness fwhm10 fsaverage Mon Dec 12 11:41:53 CET 2016
+#@# Qdec Cache rh thickness fwhm15 fsaverage Mon Dec 12 11:42:02 CET 2016
+#@# Qdec Cache rh thickness fwhm20 fsaverage Mon Dec 12 11:42:09 CET 2016
+#@# Qdec Cache rh thickness fwhm25 fsaverage Mon Dec 12 11:42:19 CET 2016
+#@# Qdec Cache rh area fsaverage Mon Dec 12 11:42:30 CET 2016
+#@# Qdec Cache rh area fwhm0 fsaverage Mon Dec 12 11:42:45 CET 2016
+#@# Qdec Cache rh area fwhm5 fsaverage Mon Dec 12 11:42:49 CET 2016
+#@# Qdec Cache rh area fwhm10 fsaverage Mon Dec 12 11:42:59 CET 2016
+#@# Qdec Cache rh area fwhm15 fsaverage Mon Dec 12 11:43:08 CET 2016
+#@# Qdec Cache rh area fwhm20 fsaverage Mon Dec 12 11:43:18 CET 2016
+#@# Qdec Cache rh area fwhm25 fsaverage Mon Dec 12 11:43:29 CET 2016
+#@# Qdec Cache rh area.pial fsaverage Mon Dec 12 11:43:40 CET 2016
+#@# Qdec Cache rh area.pial fwhm0 fsaverage Mon Dec 12 11:43:55 CET 2016
+#@# Qdec Cache rh area.pial fwhm5 fsaverage Mon Dec 12 11:43:59 CET 2016
+#@# Qdec Cache rh area.pial fwhm10 fsaverage Mon Dec 12 11:44:08 CET 2016
+#@# Qdec Cache rh area.pial fwhm15 fsaverage Mon Dec 12 11:44:18 CET 2016
+#@# Qdec Cache rh area.pial fwhm20 fsaverage Mon Dec 12 11:44:28 CET 2016
+#@# Qdec Cache rh area.pial fwhm25 fsaverage Mon Dec 12 11:44:39 CET 2016
+#@# Qdec Cache rh volume fsaverage Mon Dec 12 11:44:50 CET 2016
+#@# Qdec Cache rh volume fwhm0 fsaverage Mon Dec 12 11:45:05 CET 2016
+#@# Qdec Cache rh volume fwhm5 fsaverage Mon Dec 12 11:45:08 CET 2016
+#@# Qdec Cache rh volume fwhm10 fsaverage Mon Dec 12 11:45:17 CET 2016
+#@# Qdec Cache rh volume fwhm15 fsaverage Mon Dec 12 11:45:25 CET 2016
+#@# Qdec Cache rh volume fwhm20 fsaverage Mon Dec 12 11:45:34 CET 2016
+#@# Qdec Cache rh volume fwhm25 fsaverage Mon Dec 12 11:45:45 CET 2016
+#@# Qdec Cache rh curv fsaverage Mon Dec 12 11:45:57 CET 2016
+#@# Qdec Cache rh curv fwhm0 fsaverage Mon Dec 12 11:46:09 CET 2016
+#@# Qdec Cache rh curv fwhm5 fsaverage Mon Dec 12 11:46:13 CET 2016
+#@# Qdec Cache rh curv fwhm10 fsaverage Mon Dec 12 11:46:21 CET 2016
+#@# Qdec Cache rh curv fwhm15 fsaverage Mon Dec 12 11:46:30 CET 2016
+#@# Qdec Cache rh curv fwhm20 fsaverage Mon Dec 12 11:46:39 CET 2016
+#@# Qdec Cache rh curv fwhm25 fsaverage Mon Dec 12 11:46:49 CET 2016
+#@# Qdec Cache rh sulc fsaverage Mon Dec 12 11:47:00 CET 2016
+#@# Qdec Cache rh sulc fwhm0 fsaverage Mon Dec 12 11:47:11 CET 2016
+#@# Qdec Cache rh sulc fwhm5 fsaverage Mon Dec 12 11:47:16 CET 2016
+#@# Qdec Cache rh sulc fwhm10 fsaverage Mon Dec 12 11:47:25 CET 2016
+#@# Qdec Cache rh sulc fwhm15 fsaverage Mon Dec 12 11:47:34 CET 2016
+#@# Qdec Cache rh sulc fwhm20 fsaverage Mon Dec 12 11:47:42 CET 2016
+#@# Qdec Cache rh sulc fwhm25 fsaverage Mon Dec 12 11:47:52 CET 2016
+#@# Qdec Cache rh white.K fsaverage Mon Dec 12 11:48:03 CET 2016
+#@# Qdec Cache rh white.H fsaverage Mon Dec 12 11:48:03 CET 2016
+#@# Qdec Cache rh jacobian_white fsaverage Mon Dec 12 11:48:03 CET 2016
+#@# Qdec Cache rh jacobian_white fwhm0 fsaverage Mon Dec 12 11:48:16 CET 2016
+#@# Qdec Cache rh jacobian_white fwhm5 fsaverage Mon Dec 12 11:48:20 CET 2016
+#@# Qdec Cache rh jacobian_white fwhm10 fsaverage Mon Dec 12 11:48:29 CET 2016
+#@# Qdec Cache rh jacobian_white fwhm15 fsaverage Mon Dec 12 11:48:38 CET 2016
+#@# Qdec Cache rh jacobian_white fwhm20 fsaverage Mon Dec 12 11:48:47 CET 2016
+#@# Qdec Cache rh jacobian_white fwhm25 fsaverage Mon Dec 12 11:48:55 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fsaverage Mon Dec 12 11:49:05 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fwhm0 fsaverage Mon Dec 12 11:49:15 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fwhm5 fsaverage Mon Dec 12 11:49:19 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fwhm10 fsaverage Mon Dec 12 11:49:26 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fwhm15 fsaverage Mon Dec 12 11:49:34 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fwhm20 fsaverage Mon Dec 12 11:49:42 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fwhm25 fsaverage Mon Dec 12 11:49:50 CET 2016
+recon-all -s MASCALCHI_MARIO_20070324 finished without error at Mon Dec 12 11:49:59 CET 2016
+
+
+
+New invocation of recon-all 
+
+
+
+status file for recon-all
+Tue Dec 13 11:41:00 CET 2016
+#@# Local Gyrification Index lh Tue Dec 13 11:41:01 CET 2016
+Linux Alan 3.10.0-123.13.2.el7.x86_64 #1 SMP Thu Dec 18 14:09:13 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+
+recon-all -s MASCALCHI_MARIO_20070324 exited with ERRORS at Tue Dec 13 11:54:41 CET 2016
+
+
+
+
+New invocation of recon-all 
+
+
+
+status file for recon-all
+Tue Dec 13 14:30:44 CET 2016
+#@# Local Gyrification Index lh Tue Dec 13 14:30:44 CET 2016
+
+
+
+New invocation of recon-all 
+
+
+
+status file for recon-all
+Wed Dec 14 17:48:40 CET 2016
+#@# Local Gyrification Index lh Wed Dec 14 17:48:40 CET 2016
+Linux Alan 3.10.0-123.13.2.el7.x86_64 #1 SMP Thu Dec 18 14:09:13 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+
+recon-all -s MASCALCHI_MARIO_20070324 exited with ERRORS at Wed Dec 14 17:48:40 CET 2016
+
+
+
+
+New invocation of recon-all 
+
+
+
+status file for recon-all
+Thu Dec 15 05:22:40 CET 2016
+#@# Local Gyrification Index lh Thu Dec 15 05:22:40 CET 2016
+#@# Local Gyrification Index rh Thu Dec 15 08:34:38 CET 2016
+recon-all -s MASCALCHI_MARIO_20070324 finished without error at Thu Dec 15 12:04:44 CET 2016
+
+
+
+New invocation of recon-all 
+
+
+
+status file for recon-all
+Fri Dec 16 08:46:10 CET 2016
+#@# Qdec Cache lh thickness fsaverage Fri Dec 16 08:46:10 CET 2016
+#@# Qdec Cache lh thickness fwhm0 fsaverage Fri Dec 16 08:46:20 CET 2016
+#@# Qdec Cache lh thickness fwhm5 fsaverage Fri Dec 16 08:46:23 CET 2016
+#@# Qdec Cache lh thickness fwhm10 fsaverage Fri Dec 16 08:46:29 CET 2016
+#@# Qdec Cache lh thickness fwhm15 fsaverage Fri Dec 16 08:46:37 CET 2016
+#@# Qdec Cache lh thickness fwhm20 fsaverage Fri Dec 16 08:46:45 CET 2016
+#@# Qdec Cache lh thickness fwhm25 fsaverage Fri Dec 16 08:46:53 CET 2016
+#@# Qdec Cache lh area fsaverage Fri Dec 16 08:47:01 CET 2016
+#@# Qdec Cache lh area fwhm0 fsaverage Fri Dec 16 08:47:16 CET 2016
+#@# Qdec Cache lh area fwhm5 fsaverage Fri Dec 16 08:47:19 CET 2016
+#@# Qdec Cache lh area fwhm10 fsaverage Fri Dec 16 08:47:26 CET 2016
+#@# Qdec Cache lh area fwhm15 fsaverage Fri Dec 16 08:47:34 CET 2016
+#@# Qdec Cache lh area fwhm20 fsaverage Fri Dec 16 08:47:42 CET 2016
+#@# Qdec Cache lh area fwhm25 fsaverage Fri Dec 16 08:47:50 CET 2016
+#@# Qdec Cache lh area.pial fsaverage Fri Dec 16 08:47:59 CET 2016
+#@# Qdec Cache lh area.pial fwhm0 fsaverage Fri Dec 16 08:48:14 CET 2016
+#@# Qdec Cache lh area.pial fwhm5 fsaverage Fri Dec 16 08:48:18 CET 2016
+#@# Qdec Cache lh area.pial fwhm10 fsaverage Fri Dec 16 08:48:25 CET 2016
+#@# Qdec Cache lh area.pial fwhm15 fsaverage Fri Dec 16 08:48:32 CET 2016
+#@# Qdec Cache lh area.pial fwhm20 fsaverage Fri Dec 16 08:48:40 CET 2016
+#@# Qdec Cache lh area.pial fwhm25 fsaverage Fri Dec 16 08:48:49 CET 2016
+#@# Qdec Cache lh volume fsaverage Fri Dec 16 08:48:58 CET 2016
+#@# Qdec Cache lh volume fwhm0 fsaverage Fri Dec 16 08:49:13 CET 2016
+#@# Qdec Cache lh volume fwhm5 fsaverage Fri Dec 16 08:49:17 CET 2016
+#@# Qdec Cache lh volume fwhm10 fsaverage Fri Dec 16 08:49:25 CET 2016
+#@# Qdec Cache lh volume fwhm15 fsaverage Fri Dec 16 08:49:33 CET 2016
+#@# Qdec Cache lh volume fwhm20 fsaverage Fri Dec 16 08:49:41 CET 2016
+#@# Qdec Cache lh volume fwhm25 fsaverage Fri Dec 16 08:49:50 CET 2016
+#@# Qdec Cache lh curv fsaverage Fri Dec 16 08:50:00 CET 2016
+#@# Qdec Cache lh curv fwhm0 fsaverage Fri Dec 16 08:50:11 CET 2016
+#@# Qdec Cache lh curv fwhm5 fsaverage Fri Dec 16 08:50:14 CET 2016
+#@# Qdec Cache lh curv fwhm10 fsaverage Fri Dec 16 08:50:21 CET 2016
+#@# Qdec Cache lh curv fwhm15 fsaverage Fri Dec 16 08:50:30 CET 2016
+#@# Qdec Cache lh curv fwhm20 fsaverage Fri Dec 16 08:50:37 CET 2016
+#@# Qdec Cache lh curv fwhm25 fsaverage Fri Dec 16 08:50:47 CET 2016
+#@# Qdec Cache lh sulc fsaverage Fri Dec 16 08:50:57 CET 2016
+#@# Qdec Cache lh sulc fwhm0 fsaverage Fri Dec 16 08:51:08 CET 2016
+#@# Qdec Cache lh sulc fwhm5 fsaverage Fri Dec 16 08:51:11 CET 2016
+#@# Qdec Cache lh sulc fwhm10 fsaverage Fri Dec 16 08:51:18 CET 2016
+#@# Qdec Cache lh sulc fwhm15 fsaverage Fri Dec 16 08:51:25 CET 2016
+#@# Qdec Cache lh sulc fwhm20 fsaverage Fri Dec 16 08:51:34 CET 2016
+#@# Qdec Cache lh sulc fwhm25 fsaverage Fri Dec 16 08:51:42 CET 2016
+#@# Qdec Cache lh white.K fsaverage Fri Dec 16 08:51:52 CET 2016
+#@# Qdec Cache lh white.H fsaverage Fri Dec 16 08:51:52 CET 2016
+#@# Qdec Cache lh jacobian_white fsaverage Fri Dec 16 08:51:52 CET 2016
+#@# Qdec Cache lh jacobian_white fwhm0 fsaverage Fri Dec 16 08:52:03 CET 2016
+#@# Qdec Cache lh jacobian_white fwhm5 fsaverage Fri Dec 16 08:52:06 CET 2016
+#@# Qdec Cache lh jacobian_white fwhm10 fsaverage Fri Dec 16 08:52:13 CET 2016
+#@# Qdec Cache lh jacobian_white fwhm15 fsaverage Fri Dec 16 08:52:21 CET 2016
+#@# Qdec Cache lh jacobian_white fwhm20 fsaverage Fri Dec 16 08:52:29 CET 2016
+#@# Qdec Cache lh jacobian_white fwhm25 fsaverage Fri Dec 16 08:52:37 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fsaverage Fri Dec 16 08:52:46 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fwhm0 fsaverage Fri Dec 16 08:52:57 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fwhm5 fsaverage Fri Dec 16 08:53:00 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fwhm10 fsaverage Fri Dec 16 08:53:08 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fwhm15 fsaverage Fri Dec 16 08:53:15 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fwhm20 fsaverage Fri Dec 16 08:53:23 CET 2016
+#@# Qdec Cache lh w-g.pct.mgh fwhm25 fsaverage Fri Dec 16 08:53:33 CET 2016
+#@# Qdec Cache rh thickness fsaverage Fri Dec 16 08:53:42 CET 2016
+#@# Qdec Cache rh thickness fwhm0 fsaverage Fri Dec 16 08:53:52 CET 2016
+#@# Qdec Cache rh thickness fwhm5 fsaverage Fri Dec 16 08:53:55 CET 2016
+#@# Qdec Cache rh thickness fwhm10 fsaverage Fri Dec 16 08:54:03 CET 2016
+#@# Qdec Cache rh thickness fwhm15 fsaverage Fri Dec 16 08:54:10 CET 2016
+#@# Qdec Cache rh thickness fwhm20 fsaverage Fri Dec 16 08:54:18 CET 2016
+#@# Qdec Cache rh thickness fwhm25 fsaverage Fri Dec 16 08:54:26 CET 2016
+#@# Qdec Cache rh area fsaverage Fri Dec 16 08:54:36 CET 2016
+#@# Qdec Cache rh area fwhm0 fsaverage Fri Dec 16 08:54:50 CET 2016
+#@# Qdec Cache rh area fwhm5 fsaverage Fri Dec 16 08:54:53 CET 2016
+#@# Qdec Cache rh area fwhm10 fsaverage Fri Dec 16 08:55:00 CET 2016
+#@# Qdec Cache rh area fwhm15 fsaverage Fri Dec 16 08:55:08 CET 2016
+#@# Qdec Cache rh area fwhm20 fsaverage Fri Dec 16 08:55:16 CET 2016
+#@# Qdec Cache rh area fwhm25 fsaverage Fri Dec 16 08:55:24 CET 2016
+#@# Qdec Cache rh area.pial fsaverage Fri Dec 16 08:55:33 CET 2016
+#@# Qdec Cache rh area.pial fwhm0 fsaverage Fri Dec 16 08:55:47 CET 2016
+#@# Qdec Cache rh area.pial fwhm5 fsaverage Fri Dec 16 08:55:50 CET 2016
+#@# Qdec Cache rh area.pial fwhm10 fsaverage Fri Dec 16 08:55:58 CET 2016
+#@# Qdec Cache rh area.pial fwhm15 fsaverage Fri Dec 16 08:56:05 CET 2016
+#@# Qdec Cache rh area.pial fwhm20 fsaverage Fri Dec 16 08:56:13 CET 2016
+#@# Qdec Cache rh area.pial fwhm25 fsaverage Fri Dec 16 08:56:22 CET 2016
+#@# Qdec Cache rh volume fsaverage Fri Dec 16 08:56:29 CET 2016
+#@# Qdec Cache rh volume fwhm0 fsaverage Fri Dec 16 08:56:43 CET 2016
+#@# Qdec Cache rh volume fwhm5 fsaverage Fri Dec 16 08:56:46 CET 2016
+#@# Qdec Cache rh volume fwhm10 fsaverage Fri Dec 16 08:56:51 CET 2016
+#@# Qdec Cache rh volume fwhm15 fsaverage Fri Dec 16 08:56:56 CET 2016
+#@# Qdec Cache rh volume fwhm20 fsaverage Fri Dec 16 08:57:04 CET 2016
+#@# Qdec Cache rh volume fwhm25 fsaverage Fri Dec 16 08:57:12 CET 2016
+#@# Qdec Cache rh curv fsaverage Fri Dec 16 08:57:22 CET 2016
+#@# Qdec Cache rh curv fwhm0 fsaverage Fri Dec 16 08:57:31 CET 2016
+#@# Qdec Cache rh curv fwhm5 fsaverage Fri Dec 16 08:57:34 CET 2016
+#@# Qdec Cache rh curv fwhm10 fsaverage Fri Dec 16 08:57:42 CET 2016
+#@# Qdec Cache rh curv fwhm15 fsaverage Fri Dec 16 08:57:50 CET 2016
+#@# Qdec Cache rh curv fwhm20 fsaverage Fri Dec 16 08:57:57 CET 2016
+#@# Qdec Cache rh curv fwhm25 fsaverage Fri Dec 16 08:58:03 CET 2016
+#@# Qdec Cache rh sulc fsaverage Fri Dec 16 08:58:12 CET 2016
+#@# Qdec Cache rh sulc fwhm0 fsaverage Fri Dec 16 08:58:23 CET 2016
+#@# Qdec Cache rh sulc fwhm5 fsaverage Fri Dec 16 08:58:26 CET 2016
+#@# Qdec Cache rh sulc fwhm10 fsaverage Fri Dec 16 08:58:33 CET 2016
+#@# Qdec Cache rh sulc fwhm15 fsaverage Fri Dec 16 08:58:41 CET 2016
+#@# Qdec Cache rh sulc fwhm20 fsaverage Fri Dec 16 08:58:49 CET 2016
+#@# Qdec Cache rh sulc fwhm25 fsaverage Fri Dec 16 08:58:56 CET 2016
+#@# Qdec Cache rh white.K fsaverage Fri Dec 16 08:59:05 CET 2016
+#@# Qdec Cache rh white.H fsaverage Fri Dec 16 08:59:05 CET 2016
+#@# Qdec Cache rh jacobian_white fsaverage Fri Dec 16 08:59:05 CET 2016
+#@# Qdec Cache rh jacobian_white fwhm0 fsaverage Fri Dec 16 08:59:12 CET 2016
+#@# Qdec Cache rh jacobian_white fwhm5 fsaverage Fri Dec 16 08:59:15 CET 2016
+#@# Qdec Cache rh jacobian_white fwhm10 fsaverage Fri Dec 16 08:59:23 CET 2016
+#@# Qdec Cache rh jacobian_white fwhm15 fsaverage Fri Dec 16 08:59:28 CET 2016
+#@# Qdec Cache rh jacobian_white fwhm20 fsaverage Fri Dec 16 08:59:35 CET 2016
+#@# Qdec Cache rh jacobian_white fwhm25 fsaverage Fri Dec 16 08:59:42 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fsaverage Fri Dec 16 08:59:50 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fwhm0 fsaverage Fri Dec 16 09:00:00 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fwhm5 fsaverage Fri Dec 16 09:00:04 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fwhm10 fsaverage Fri Dec 16 09:00:10 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fwhm15 fsaverage Fri Dec 16 09:00:17 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fwhm20 fsaverage Fri Dec 16 09:00:24 CET 2016
+#@# Qdec Cache rh w-g.pct.mgh fwhm25 fsaverage Fri Dec 16 09:00:30 CET 2016
+recon-all -s MASCALCHI_MARIO_20070324 finished without error at Fri Dec 16 09:00:37 CET 2016
+
+
+
+New invocation of recon-all 
+
+
+
+status file for recon-all
+Mon Dec 19 14:38:55 CET 2016
+#@# Qdec Cache lh pial_lgi fsaverage Mon Dec 19 14:38:55 CET 2016
+#@# Qdec Cache lh pial_lgi fwhm0 fsaverage Mon Dec 19 14:39:03 CET 2016
+#@# Qdec Cache lh pial_lgi fwhm5 fsaverage Mon Dec 19 14:39:06 CET 2016
+#@# Qdec Cache lh pial_lgi fwhm10 fsaverage Mon Dec 19 14:39:11 CET 2016
+#@# Qdec Cache lh pial_lgi fwhm15 fsaverage Mon Dec 19 14:39:17 CET 2016
+#@# Qdec Cache lh pial_lgi fwhm20 fsaverage Mon Dec 19 14:39:23 CET 2016
+#@# Qdec Cache lh pial_lgi fwhm25 fsaverage Mon Dec 19 14:39:31 CET 2016
+#@# Qdec Cache rh pial_lgi fsaverage Mon Dec 19 14:39:38 CET 2016
+#@# Qdec Cache rh pial_lgi fwhm0 fsaverage Mon Dec 19 14:39:47 CET 2016
+#@# Qdec Cache rh pial_lgi fwhm5 fsaverage Mon Dec 19 14:39:49 CET 2016
+#@# Qdec Cache rh pial_lgi fwhm10 fsaverage Mon Dec 19 14:39:55 CET 2016
+#@# Qdec Cache rh pial_lgi fwhm15 fsaverage Mon Dec 19 14:40:01 CET 2016
+#@# Qdec Cache rh pial_lgi fwhm20 fsaverage Mon Dec 19 14:40:09 CET 2016
+#@# Qdec Cache rh pial_lgi fwhm25 fsaverage Mon Dec 19 14:40:16 CET 2016
+recon-all -s MASCALCHI_MARIO_20070324 finished without error at Mon Dec 19 14:40:23 CET 2016
+
+
+
+New invocation of recon-all 
+
+
+
+status file for recon-all
+Wed Mar 22 17:53:07 CET 2017
+#@# Qdec Cache lh thickness fsaverage Wed Mar 22 17:53:07 CET 2017
+#@# Qdec Cache lh thickness fwhm0 fsaverage Wed Mar 22 17:53:15 CET 2017
+#@# Qdec Cache lh thickness fwhm5 fsaverage Wed Mar 22 17:53:17 CET 2017
+#@# Qdec Cache lh thickness fwhm10 fsaverage Wed Mar 22 17:53:22 CET 2017
+#@# Qdec Cache lh thickness fwhm15 fsaverage Wed Mar 22 17:53:27 CET 2017
+#@# Qdec Cache lh thickness fwhm20 fsaverage Wed Mar 22 17:53:33 CET 2017
+#@# Qdec Cache lh thickness fwhm25 fsaverage Wed Mar 22 17:53:39 CET 2017
+#@# Qdec Cache lh area fsaverage Wed Mar 22 17:53:45 CET 2017
+#@# Qdec Cache lh area fwhm0 fsaverage Wed Mar 22 17:53:55 CET 2017
+#@# Qdec Cache lh area fwhm5 fsaverage Wed Mar 22 17:53:57 CET 2017
+#@# Qdec Cache lh area fwhm10 fsaverage Wed Mar 22 17:54:02 CET 2017
+#@# Qdec Cache lh area fwhm15 fsaverage Wed Mar 22 17:54:07 CET 2017
+#@# Qdec Cache lh area fwhm20 fsaverage Wed Mar 22 17:54:13 CET 2017
+#@# Qdec Cache lh area fwhm25 fsaverage Wed Mar 22 17:54:19 CET 2017
+#@# Qdec Cache lh area.pial fsaverage Wed Mar 22 17:54:24 CET 2017
+#@# Qdec Cache lh area.pial fwhm0 fsaverage Wed Mar 22 17:54:34 CET 2017
+#@# Qdec Cache lh area.pial fwhm5 fsaverage Wed Mar 22 17:54:37 CET 2017
+#@# Qdec Cache lh area.pial fwhm10 fsaverage Wed Mar 22 17:54:41 CET 2017
+#@# Qdec Cache lh area.pial fwhm15 fsaverage Wed Mar 22 17:54:47 CET 2017
+#@# Qdec Cache lh area.pial fwhm20 fsaverage Wed Mar 22 17:54:52 CET 2017
+#@# Qdec Cache lh area.pial fwhm25 fsaverage Wed Mar 22 17:54:58 CET 2017
+#@# Qdec Cache lh volume fsaverage Wed Mar 22 17:55:04 CET 2017
+#@# Qdec Cache lh volume fwhm0 fsaverage Wed Mar 22 17:55:14 CET 2017
+#@# Qdec Cache lh volume fwhm5 fsaverage Wed Mar 22 17:55:16 CET 2017
+#@# Qdec Cache lh volume fwhm10 fsaverage Wed Mar 22 17:55:21 CET 2017
+#@# Qdec Cache lh volume fwhm15 fsaverage Wed Mar 22 17:55:26 CET 2017
+#@# Qdec Cache lh volume fwhm20 fsaverage Wed Mar 22 17:55:32 CET 2017
+#@# Qdec Cache lh volume fwhm25 fsaverage Wed Mar 22 17:55:37 CET 2017
+#@# Qdec Cache lh curv fsaverage Wed Mar 22 17:55:44 CET 2017
+#@# Qdec Cache lh curv fwhm0 fsaverage Wed Mar 22 17:55:51 CET 2017
+#@# Qdec Cache lh curv fwhm5 fsaverage Wed Mar 22 17:55:53 CET 2017
+#@# Qdec Cache lh curv fwhm10 fsaverage Wed Mar 22 17:55:58 CET 2017
+#@# Qdec Cache lh curv fwhm15 fsaverage Wed Mar 22 17:56:03 CET 2017
+#@# Qdec Cache lh curv fwhm20 fsaverage Wed Mar 22 17:56:09 CET 2017
+#@# Qdec Cache lh curv fwhm25 fsaverage Wed Mar 22 17:56:15 CET 2017
+#@# Qdec Cache lh sulc fsaverage Wed Mar 22 17:56:21 CET 2017
+#@# Qdec Cache lh sulc fwhm0 fsaverage Wed Mar 22 17:56:28 CET 2017
+#@# Qdec Cache lh sulc fwhm5 fsaverage Wed Mar 22 17:56:30 CET 2017
+#@# Qdec Cache lh sulc fwhm10 fsaverage Wed Mar 22 17:56:35 CET 2017
+#@# Qdec Cache lh sulc fwhm15 fsaverage Wed Mar 22 17:56:40 CET 2017
+#@# Qdec Cache lh sulc fwhm20 fsaverage Wed Mar 22 17:56:46 CET 2017
+#@# Qdec Cache lh sulc fwhm25 fsaverage Wed Mar 22 17:56:51 CET 2017
+#@# Qdec Cache lh white.K fsaverage Wed Mar 22 17:56:57 CET 2017
+#@# Qdec Cache lh white.H fsaverage Wed Mar 22 17:56:57 CET 2017
+#@# Qdec Cache lh jacobian_white fsaverage Wed Mar 22 17:56:57 CET 2017
+#@# Qdec Cache lh jacobian_white fwhm0 fsaverage Wed Mar 22 17:57:04 CET 2017
+#@# Qdec Cache lh jacobian_white fwhm5 fsaverage Wed Mar 22 17:57:06 CET 2017
+#@# Qdec Cache lh jacobian_white fwhm10 fsaverage Wed Mar 22 17:57:11 CET 2017
+#@# Qdec Cache lh jacobian_white fwhm15 fsaverage Wed Mar 22 17:57:16 CET 2017
+#@# Qdec Cache lh jacobian_white fwhm20 fsaverage Wed Mar 22 17:57:22 CET 2017
+#@# Qdec Cache lh jacobian_white fwhm25 fsaverage Wed Mar 22 17:57:28 CET 2017
+#@# Qdec Cache lh w-g.pct.mgh fsaverage Wed Mar 22 17:57:34 CET 2017
+#@# Qdec Cache lh w-g.pct.mgh fwhm0 fsaverage Wed Mar 22 17:57:41 CET 2017
+#@# Qdec Cache lh w-g.pct.mgh fwhm5 fsaverage Wed Mar 22 17:57:43 CET 2017
+#@# Qdec Cache lh w-g.pct.mgh fwhm10 fsaverage Wed Mar 22 17:57:48 CET 2017
+#@# Qdec Cache lh w-g.pct.mgh fwhm15 fsaverage Wed Mar 22 17:57:54 CET 2017
+#@# Qdec Cache lh w-g.pct.mgh fwhm20 fsaverage Wed Mar 22 17:58:00 CET 2017
+#@# Qdec Cache lh w-g.pct.mgh fwhm25 fsaverage Wed Mar 22 17:58:05 CET 2017
+#@# Qdec Cache rh thickness fsaverage Wed Mar 22 17:58:11 CET 2017
+#@# Qdec Cache rh thickness fwhm0 fsaverage Wed Mar 22 17:58:18 CET 2017
+#@# Qdec Cache rh thickness fwhm5 fsaverage Wed Mar 22 17:58:20 CET 2017
+#@# Qdec Cache rh thickness fwhm10 fsaverage Wed Mar 22 17:58:25 CET 2017
+#@# Qdec Cache rh thickness fwhm15 fsaverage Wed Mar 22 17:58:30 CET 2017
+#@# Qdec Cache rh thickness fwhm20 fsaverage Wed Mar 22 17:58:36 CET 2017
+#@# Qdec Cache rh thickness fwhm25 fsaverage Wed Mar 22 17:58:41 CET 2017
+#@# Qdec Cache rh area fsaverage Wed Mar 22 17:58:47 CET 2017
+#@# Qdec Cache rh area fwhm0 fsaverage Wed Mar 22 17:58:56 CET 2017
+#@# Qdec Cache rh area fwhm5 fsaverage Wed Mar 22 17:58:58 CET 2017
+#@# Qdec Cache rh area fwhm10 fsaverage Wed Mar 22 17:59:03 CET 2017
+#@# Qdec Cache rh area fwhm15 fsaverage Wed Mar 22 17:59:08 CET 2017
+#@# Qdec Cache rh area fwhm20 fsaverage Wed Mar 22 17:59:14 CET 2017
+#@# Qdec Cache rh area fwhm25 fsaverage Wed Mar 22 17:59:19 CET 2017
+#@# Qdec Cache rh area.pial fsaverage Wed Mar 22 17:59:25 CET 2017
+#@# Qdec Cache rh area.pial fwhm0 fsaverage Wed Mar 22 17:59:34 CET 2017
+#@# Qdec Cache rh area.pial fwhm5 fsaverage Wed Mar 22 17:59:37 CET 2017
+#@# Qdec Cache rh area.pial fwhm10 fsaverage Wed Mar 22 17:59:42 CET 2017
+#@# Qdec Cache rh area.pial fwhm15 fsaverage Wed Mar 22 17:59:47 CET 2017
+#@# Qdec Cache rh area.pial fwhm20 fsaverage Wed Mar 22 17:59:52 CET 2017
+#@# Qdec Cache rh area.pial fwhm25 fsaverage Wed Mar 22 17:59:58 CET 2017
+#@# Qdec Cache rh volume fsaverage Wed Mar 22 18:00:04 CET 2017
+#@# Qdec Cache rh volume fwhm0 fsaverage Wed Mar 22 18:00:13 CET 2017
+#@# Qdec Cache rh volume fwhm5 fsaverage Wed Mar 22 18:00:15 CET 2017
+#@# Qdec Cache rh volume fwhm10 fsaverage Wed Mar 22 18:00:20 CET 2017
+#@# Qdec Cache rh volume fwhm15 fsaverage Wed Mar 22 18:00:25 CET 2017
+#@# Qdec Cache rh volume fwhm20 fsaverage Wed Mar 22 18:00:31 CET 2017
+#@# Qdec Cache rh volume fwhm25 fsaverage Wed Mar 22 18:00:36 CET 2017
+#@# Qdec Cache rh curv fsaverage Wed Mar 22 18:00:42 CET 2017
+#@# Qdec Cache rh curv fwhm0 fsaverage Wed Mar 22 18:00:49 CET 2017
+#@# Qdec Cache rh curv fwhm5 fsaverage Wed Mar 22 18:00:51 CET 2017
+#@# Qdec Cache rh curv fwhm10 fsaverage Wed Mar 22 18:00:56 CET 2017
+#@# Qdec Cache rh curv fwhm15 fsaverage Wed Mar 22 18:01:02 CET 2017
+#@# Qdec Cache rh curv fwhm20 fsaverage Wed Mar 22 18:01:07 CET 2017
+#@# Qdec Cache rh curv fwhm25 fsaverage Wed Mar 22 18:01:13 CET 2017
+#@# Qdec Cache rh sulc fsaverage Wed Mar 22 18:01:19 CET 2017
+#@# Qdec Cache rh sulc fwhm0 fsaverage Wed Mar 22 18:01:26 CET 2017
+#@# Qdec Cache rh sulc fwhm5 fsaverage Wed Mar 22 18:01:28 CET 2017
+#@# Qdec Cache rh sulc fwhm10 fsaverage Wed Mar 22 18:01:34 CET 2017
+#@# Qdec Cache rh sulc fwhm15 fsaverage Wed Mar 22 18:01:39 CET 2017
+#@# Qdec Cache rh sulc fwhm20 fsaverage Wed Mar 22 18:01:44 CET 2017
+#@# Qdec Cache rh sulc fwhm25 fsaverage Wed Mar 22 18:01:50 CET 2017
+#@# Qdec Cache rh white.K fsaverage Wed Mar 22 18:01:56 CET 2017
+#@# Qdec Cache rh white.H fsaverage Wed Mar 22 18:01:56 CET 2017
+#@# Qdec Cache rh jacobian_white fsaverage Wed Mar 22 18:01:56 CET 2017
+#@# Qdec Cache rh jacobian_white fwhm0 fsaverage Wed Mar 22 18:02:03 CET 2017
+#@# Qdec Cache rh jacobian_white fwhm5 fsaverage Wed Mar 22 18:02:05 CET 2017
+#@# Qdec Cache rh jacobian_white fwhm10 fsaverage Wed Mar 22 18:02:10 CET 2017
+#@# Qdec Cache rh jacobian_white fwhm15 fsaverage Wed Mar 22 18:02:15 CET 2017
+#@# Qdec Cache rh jacobian_white fwhm20 fsaverage Wed Mar 22 18:02:20 CET 2017
+#@# Qdec Cache rh jacobian_white fwhm25 fsaverage Wed Mar 22 18:02:26 CET 2017
+#@# Qdec Cache rh w-g.pct.mgh fsaverage Wed Mar 22 18:02:32 CET 2017
+#@# Qdec Cache rh w-g.pct.mgh fwhm0 fsaverage Wed Mar 22 18:02:39 CET 2017
+#@# Qdec Cache rh w-g.pct.mgh fwhm5 fsaverage Wed Mar 22 18:02:41 CET 2017
+#@# Qdec Cache rh w-g.pct.mgh fwhm10 fsaverage Wed Mar 22 18:02:46 CET 2017
+#@# Qdec Cache rh w-g.pct.mgh fwhm15 fsaverage Wed Mar 22 18:02:51 CET 2017
+#@# Qdec Cache rh w-g.pct.mgh fwhm20 fsaverage Wed Mar 22 18:02:56 CET 2017
+#@# Qdec Cache rh w-g.pct.mgh fwhm25 fsaverage Wed Mar 22 18:03:01 CET 2017
+recon-all -s MASCALCHI_MARIO_20070324 finished without error at Wed Mar 22 18:03:06 CET 2017

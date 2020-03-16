@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT DICIOTTI_STEFANO
+START_TIME Thu Nov 12 16:26:17 CET 2015
+END_TIME Fri Nov 13 02:03:39 CET 2015
+RUNTIME_HOURS 9.623
+USER diciotti
+HOST Alan
+PROCESSOR x86_64
+OS Linux
+UNAME Linux Alan 3.10.0-123.13.2.el7.x86_64 #1 SMP Thu Dec 18 14:09:13 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+VERSION $Id: recon-all,v 1.379.2.73 2013/05/12 23:15:37 nicks Exp $
+CMDPATH /usr/local/freesurfer/bin/recon-all
+CMDARGS -s DICIOTTI_STEFANO -i MPRAX1mmDICIOTTISTEFANO.nii.gz -all

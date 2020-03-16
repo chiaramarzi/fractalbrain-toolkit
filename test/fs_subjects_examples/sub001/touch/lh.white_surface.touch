@@ -1,0 +1,1 @@
+mris_make_surfaces -noaparc -whiteonly -mgz -T1 brain.finalsurfs DICIOTTI_STEFANO lh

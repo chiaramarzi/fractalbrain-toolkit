@@ -1,0 +1,1 @@
+mri_convert /data/MRdata/freesurfer/DICIOTTI_STEFANO/mri/rawavg.mgz /data/MRdata/freesurfer/DICIOTTI_STEFANO/mri/orig.mgz --conform

@@ -1,0 +1,1 @@
+mri_aparc2aseg --s MASCALCHI_MARIO_20070324 --volmask --a2009s

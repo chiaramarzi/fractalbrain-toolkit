@@ -1,0 +1,58 @@
+# Table of FreeSurfer cortical parcellation anatomical statistics 
+# 
+# CreationTime 2017/12/01-19:46:04-GMT
+# generating_program mris_anatomical_stats
+# cvs_version $Id: mris_anatomical_stats.c,v 1.72 2011/03/02 00:04:26 nicks Exp $
+# mrisurf.c-cvs_version $Id: mrisurf.c,v 1.693.2.7 2013/05/12 22:28:01 nicks Exp $
+# cmdline mris_anatomical_stats -a MASCALCHI_MARIO_20070324/label/rh.freeSurfer_lobes.annot -c MASCALCHI_MARIO_20070324/label/lobes_ColorTable_rh.txt -f MASCALCHI_MARIO_20070324/stats/rh.lobes.stats MASCALCHI_MARIO_20070324 rh 
+# sysname  Linux
+# hostname Alan
+# machine  x86_64
+# user     marzi
+# 
+# SUBJECTS_DIR /data/MRdata/SCA2/freesurfer
+# anatomy_type surface
+# subjectname MASCALCHI_MARIO_20070324
+# hemi rh
+# AnnotationFile MASCALCHI_MARIO_20070324/label/rh.freeSurfer_lobes.annot
+# AnnotationFileTimeStamp (null)
+# Measure Cortex, NumVert, Number of Vertices, 138990, unitless
+# Measure Cortex, WhiteSurfArea, White Surface Total Area, 88216.8, mm^2
+# NTableCols 10
+# TableCol  1 ColHeader StructName
+# TableCol  1 FieldName Structure Name
+# TableCol  1 Units     NA
+# TableCol  2 ColHeader NumVert
+# TableCol  2 FieldName Number of Vertices
+# TableCol  2 Units     unitless
+# TableCol  3 ColHeader SurfArea
+# TableCol  3 FieldName Surface Area
+# TableCol  3 Units     mm^2
+# TableCol  4 ColHeader GrayVol
+# TableCol  4 FieldName Gray Matter Volume
+# TableCol  4 Units     mm^3
+# TableCol  5 ColHeader ThickAvg 
+# TableCol  5 FieldName Average Thickness
+# TableCol  5 Units     mm
+# TableCol  6 ColHeader ThickStd
+# TableCol  6 FieldName Thickness StdDev
+# TableCol  6 Units     mm 
+# TableCol  7 ColHeader MeanCurv
+# TableCol  7 FieldName Integrated Rectified Mean Curvature
+# TableCol  7 Units     mm^-1
+# TableCol  8 ColHeader GausCurv 
+# TableCol  8 FieldName Integrated Rectified Gaussian Curvature
+# TableCol  8 Units     mm^-2
+# TableCol  9 ColHeader  FoldInd
+# TableCol  9 FieldName  Folding Index 
+# TableCol  9 Units      unitless 
+# TableCol 10 ColHeader CurvInd
+# TableCol 10 FieldName Intrinsic Curvature Index
+# TableCol 10 Units     unitless
+# ColHeaders StructName NumVert SurfArea GrayVol ThickAvg ThickStd MeanCurv GausCurv FoldInd CurvInd
+frontal                                 49202  30687  79917  2.385 0.700     0.160     0.134     2457   246.1
+cingulate                                5271   3435  10163  2.697 0.769     0.151     0.120      428    36.1
+occipital                               15552   9845  20333  1.937 0.644     0.162     0.078      309    51.7
+temporal                                24150  16027  47846  2.505 0.820     0.150     0.939     1605   108.4
+parietal                                33285  20903  50760  2.233 0.652     0.144     0.146      867   100.8
+insula                                   3255   2133   6753  3.090 0.863     0.165     0.129       98    20.3

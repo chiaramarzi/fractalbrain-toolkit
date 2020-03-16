@@ -1,0 +1,1 @@
+mri_cc -aseg aseg.auto_noCCseg.mgz -o aseg.auto.mgz -lta /data/MRdata/SCA2/data/MASCALCHI_MARIO_20070324/mri/transforms/cc_up.lta MASCALCHI_MARIO_20070324

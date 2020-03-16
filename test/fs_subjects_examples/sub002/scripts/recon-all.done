@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT MASCALCHI_MARIO_20070324
+START_TIME Wed Mar 22 17:53:04 CET 2017
+END_TIME Wed Mar 22 18:03:06 CET 2017
+RUNTIME_HOURS 0.167
+USER marzi
+HOST Alan
+PROCESSOR x86_64
+OS Linux
+UNAME Linux Alan 3.10.0-123.el7.x86_64 #1 SMP Mon Jun 30 12:09:22 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+VERSION $Id: recon-all,v 1.379.2.73 2013/05/12 23:15:37 nicks Exp $
+CMDPATH /usr/local/freesurfer/bin/recon-all
+CMDARGS -subjid MASCALCHI_MARIO_20070324 -qcache

@@ -1,0 +1,1 @@
+mris_ca_label -l ../label/lh.cortex.label -aseg ../mri/aseg.mgz -seed 1234 MASCALCHI_MARIO_20070324 lh ../surf/lh.sphere.reg /usr/local/freesurfer/average/lh.DKTatlas40.gcs ../label/lh.aparc.DKTatlas40.annot

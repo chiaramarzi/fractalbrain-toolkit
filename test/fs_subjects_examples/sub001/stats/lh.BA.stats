@@ -1,0 +1,65 @@
+# Table of FreeSurfer cortical parcellation anatomical statistics 
+# 
+# CreationTime 2015/11/13-00:58:39-GMT
+# generating_program mris_anatomical_stats
+# cvs_version $Id: mris_anatomical_stats.c,v 1.72 2011/03/02 00:04:26 nicks Exp $
+# mrisurf.c-cvs_version $Id: mrisurf.c,v 1.693.2.7 2013/05/12 22:28:01 nicks Exp $
+# cmdline mris_anatomical_stats -mgz -f ../stats/lh.BA.stats -b -a ./lh.BA.annot -c ./BA.ctab DICIOTTI_STEFANO lh white 
+# sysname  Linux
+# hostname Alan
+# machine  x86_64
+# user     diciotti
+# 
+# SUBJECTS_DIR /data/MRdata/freesurfer
+# anatomy_type surface
+# subjectname DICIOTTI_STEFANO
+# hemi lh
+# AnnotationFile ./lh.BA.annot
+# AnnotationFileTimeStamp 2015/11/13 01:58:33
+# Measure Cortex, NumVert, Number of Vertices, 134122, unitless
+# Measure Cortex, WhiteSurfArea, White Surface Total Area, 93817.8, mm^2
+# NTableCols 10
+# TableCol  1 ColHeader StructName
+# TableCol  1 FieldName Structure Name
+# TableCol  1 Units     NA
+# TableCol  2 ColHeader NumVert
+# TableCol  2 FieldName Number of Vertices
+# TableCol  2 Units     unitless
+# TableCol  3 ColHeader SurfArea
+# TableCol  3 FieldName Surface Area
+# TableCol  3 Units     mm^2
+# TableCol  4 ColHeader GrayVol
+# TableCol  4 FieldName Gray Matter Volume
+# TableCol  4 Units     mm^3
+# TableCol  5 ColHeader ThickAvg 
+# TableCol  5 FieldName Average Thickness
+# TableCol  5 Units     mm
+# TableCol  6 ColHeader ThickStd
+# TableCol  6 FieldName Thickness StdDev
+# TableCol  6 Units     mm 
+# TableCol  7 ColHeader MeanCurv
+# TableCol  7 FieldName Integrated Rectified Mean Curvature
+# TableCol  7 Units     mm^-1
+# TableCol  8 ColHeader GausCurv 
+# TableCol  8 FieldName Integrated Rectified Gaussian Curvature
+# TableCol  8 Units     mm^-2
+# TableCol  9 ColHeader  FoldInd
+# TableCol  9 FieldName  Folding Index 
+# TableCol  9 Units      unitless 
+# TableCol 10 ColHeader CurvInd
+# TableCol 10 FieldName Intrinsic Curvature Index
+# TableCol 10 Units     unitless
+# ColHeaders StructName NumVert SurfArea GrayVol ThickAvg ThickStd MeanCurv GausCurv FoldInd CurvInd
+BA1                                       975    671   1502  1.803 0.431     0.153     0.052       15     1.9
+BA2                                      3936   2709   4998  1.768 0.554     0.122     0.031       38     5.0
+BA3a                                     1003    661    881  1.631 0.400     0.137     0.036        9     1.6
+BA3b                                     2353   1671   2716  1.542 0.563     0.118     0.035       21     3.0
+BA4a                                     1799   1065   3340  2.737 0.577     0.112     0.035       15     2.8
+BA4p                                     1442    960   2197  2.389 0.587     0.111     0.032       11     1.9
+BA6                                     11090   7607  21313  2.457 0.623     0.120     0.035      101    15.0
+BA44                                     2235   1625   4394  2.322 0.633     0.127     0.033       27     2.9
+BA45                                     2746   2043   5079  2.077 0.632     0.155     0.059       45     5.6
+V1                                       3675   2595   4173  1.569 0.412     0.161     0.056       52     7.8
+V2                                       8214   5829  13425  2.158 0.590     0.163     0.056      128    16.9
+MT                                       1899   1299   2849  2.052 0.535     0.137     0.039       22     2.7
+perirhinal                               1133    879   3215  2.914 1.143     0.157     0.085       23     2.8

@@ -1,0 +1,1 @@
+mris_curvature_stats -m --writeCurvatureFiles -G -o ../stats/lh.curv.stats -F smoothwm MASCALCHI_MARIO_20070324 lh curv sulc
