@@ -88,8 +88,11 @@ if __name__ == "__main__":
     image_extension = image_extension2 + image_extension1
     if image_extension == '.nii' or image_extension == '.nii.gz':
         print ("The prefix is: ", args.prefix)
+        subjid=args.prefix
         print ("The NifTI image is: ", args.image)
-        fract(**vars(args))
+        image=args.image
+        fract(subjid, image)
+        #fract(**vars(args))
     elif os.path.isfile(args.image) and os.path.isfile(args.prefix):
         print (args.image, "is a file containing a list of NifTI images and", args.prefix, "is a file containing a list of prefixes")
         with open(args.prefix, 'r') as fid_subj_list, open(args.image, 'r') as fid_imgs_list:
