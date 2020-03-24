@@ -1,6 +1,6 @@
  # fractalbrain toolkit
 
-*fractalbrain* is a simple, easy-to-use, and efficient toolkit for fractal analysis of the human brain and generic fractal structures. It computes the fractal dimension (FD), the minimal fractal scale (mfs) and the maximal fractal scale (Mfs) of the automatically selected fractal scaling window, that is the spatial window within which the structure manifests the highest self-similarity. *fractalbrain* fills the gap between the theory of fractal geometry and its numerical implementation, especially in the Neuroimaging field. It is able to easily run on FreeSurfer outputs.
+*fractalbrain* is a simple, easy-to-use, and efficient toolkit for fractal analysis of the human brain - starting from Magnetic Resonance structural images (sMRI) -  and generic fractal structures. It computes the fractal dimension (FD), the minimal fractal scale (mfs) and the maximal fractal scale (Mfs) of the automatically selected fractal scaling window, that is the spatial window within which the structure manifests the highest self-similarity. *fractalbrain* fills the gap between the theory of fractal geometry and its numerical implementation, especially in the Neuroimaging field. It is able to easily run on FreeSurfer outputs.
 
 This document provides a quick introduction to the fractalbrain toolkit to help new users get started.  
 
@@ -101,7 +101,7 @@ python -m fractalbrain.fs_fract2table subjid_list.tx
 NOTE: the options --lobes, --hemi, --brain (DEFAULT) must be the same used previously for fractalbrain.fs_fract
 ```
 
-Both *fractalbrain.fs_fract* and *fractalbrain.fs_fract2table] are able to work with FreeSurfer output (aparc+aseg.mgz) and with the folders tree established by FreeSurfer developers. *fractalbrain.fs_fract* creates subjid/fractal-analysis folder and works in it. *fractalbrain.fs_fract2table* writes in the folder containing all the FreeSurfer subjid directories.
+Both *fractalbrain.fs_fract* and *fractalbrain.fs_fract2table* are able to work with FreeSurfer output (aparc+aseg.mgz) and with the folders tree established by FreeSurfer developers. *fractalbrain.fs_fract* creates subjid/fractal-analysis folder and works in it. *fractalbrain.fs_fract2table* writes in the folder containing all the FreeSurfer subjid directories.
 The folders automatically created by FreeSurfer procedure are not modified by the fractalbrain toolkit.
 
 ### Working with other 3D isotropic binary NifTI images
@@ -164,7 +164,7 @@ or, for all the FreeSurfer folders contained the list file 'subjid_list.txt':
 python -m fractalbrain.fs_fract subjid_list.txt
 ```
 
-3. Read the fractal indices in the file *sub001/fractal-analysis/sub001_*_FractalIndices.txt*, or collect the results of the list files in a CSV file, running:
+3. Read the fractal indices in the file *sub001/fractal-analysis/sub001_\*_FractalIndices.txt*, or collect the results of the list files in a CSV file, running:
 
 ```
 python -m fractalbrain.fs_fract2table subjid_list.txt
@@ -174,7 +174,7 @@ and open *FractalIndices_Results.csv*
 
 ### Test on 3D isotropic binary fractal NifTI volumes
 1. Go to the [test/phantoms_examples](./test/phantoms_examples) folder
-2. From the terminal window (for Unix users) or Anaconda Prompt (for t (for Windows users), type, for the Menger’s sponge phantom:  
+2. From the terminal window (for Unix users) or Anaconda Prompt (for Windows users), type, for the Menger’s sponge phantom:  
 
 ```
 python -m fractalbrain.fract menger menger_level5.nii.gz
@@ -197,7 +197,7 @@ and open *FractalIndices_Results.csv*
 ## Authors
 * [**Chiara Marzi**](https://www.unibo.it/sitoweb/chiara.marzi3/en) - *Ph.D. student in Biomedical, Electrical and System Engineering, Dept. of Electrical, Electronic and Information Engineering – DEI "Guglielmo Marconi", University of Bologna, Bologna, Italy.* Email address: <chiara.marzi3@unibo.it>
 
-* [**Stefano Diciotti**](https://www.unibo.it/sitoweb/stefano.diciotti/en) - *Associate Professor, Dept. of Electrical, Electronic and Information Engineering – DEI "Guglielmo Marconi", University of Bologna, Bologna, Italy.* Email address: <stefano.diciotti@unibo.it>
+* [**Stefano Diciotti**](https://www.unibo.it/sitoweb/stefano.diciotti/en) - *Associate Professor in Biomedical Engineering, Dept. of Electrical, Electronic and Information Engineering – DEI "Guglielmo Marconi", University of Bologna, Bologna, Italy.* Email address: <stefano.diciotti@unibo.it>
 
 ## Contribution, help, bug reports, feature requests
 The developers welcome contributions to the fractalbrain toolkit. Please contact the developers at <fractalbraintoolkit@gmail.com> if you would like to contribute code, or for any questions and comments.
@@ -207,7 +207,7 @@ Bug reports should include sufficient information to reproduce the problem.
 If you use and find the *fractalbrain toolkit* helpful, please cite it as:
 
 Marzi, C., Ciulli, S., Giannelli, M., Ginestroni, A., Tessa, C.,
-Mascalchi, M., and Diciotti, S. (2018a). **Structural Complexity of
+Mascalchi, M., and Diciotti, S. (2018). **Structural Complexity of
 the Cerebellum and Cerebral Cortex is Reduced in
 Spinocerebellar Ataxia Type 2**. Journal of neuroimaging : official
 journal of the American Society of Neuroimaging 28 6, pp. 688–693. PMID: [29975004](https://www.ncbi.nlm.nih.gov/pubmed/29975004)
