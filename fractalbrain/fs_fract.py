@@ -4,7 +4,7 @@
 Created on Wed Nov 13 13:25:34 2019
 
 @author: Chiara Marzi, Ph.D. student in Biomedical, Electrical and System Engineering,
-at Dept. of Dept. of Electrical, Electronic and Information Engineering – DEI "Guglielmo Marconi",
+at Dept. of Electrical, Electronic and Information Engineering – DEI "Guglielmo Marconi",
 University of Bologna, Bologna, Italy. 
 E-mail address: chiara.marzi3@unibo.it
 
