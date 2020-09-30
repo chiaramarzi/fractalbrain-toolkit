@@ -104,7 +104,7 @@ def asofi( subjid, image ):
         Ns.append(np.mean(Ns_offset))
     
     ### AUTOMATED SELECTION OF THE FRACTAL SCALING WINDOW ### 
-    minWindowSize = 4 # in the logarithm scale, in the worst case, 4 points cover more than 0.5 decade, which should be the minimum fractal scaling window possible, to define an object as fractal (Marzi et al., in preparation)
+    minWindowSize = 5 # in the logarithm scale, in the worst case, 5 points cover more than 1.2 decades, which should be the minimum fractal scaling window possible, to define an object as fractal (Marzi et al., Scientific Reports 2020)
     scales_indices = [] 
 
     for step in range(scales.size, minWindowSize-1, -1):
@@ -122,8 +122,8 @@ def asofi( subjid, image ):
         R2=skl.r2_score(y_true,y_pred)
         R2_adj_tmp = 1 - (1 - R2)*((n - 1)/(n - (k_ind + 1)))
         log.info('In the interval [%s, %s] voxels, the FD is %s and the determination coefficient adjusted for the number of points is %s', scales[scales_indices[k,0]], scales[scales_indices[k,1]], -coeffs[0], R2_adj_tmp)
-        #R2_adj = round(R2_adj, 3)
-        #R2_adj_tmp = round(R2_adj_tmp, 3)
+        R2_adj = round(R2_adj, 3)
+        R2_adj_tmp = round(R2_adj_tmp, 3)
         if R2_adj_tmp > R2_adj:
             R2_adj = R2_adj_tmp
             FD = -coeffs[0]
