@@ -12,7 +12,7 @@ Please read the [LICENSE.md](./LICENSE.md) file before using fractalbrain.
 Open a terminal window (for Unix users) or Anaconda Prompt (for Windows users), activate or create a Python environment (we recommend to create a new Python environment, see below) and type:
 
 ```
-pip install git+git://github.com/chiaramarzi/fractalbrain-toolkit.git
+pip install git+https://github.com/chiaramarzi/fractalbrain-toolkit.git
 ```
 
 ### Installing via GitHub download
