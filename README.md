@@ -206,6 +206,10 @@ Bug reports should include sufficient information to reproduce the problem.
 ## Additional Information
 If you use and find the *fractalbrain toolkit* helpful, please cite it as:
 
+Marzi, C., Giannelli, M., Tessa, C., Mascalchi, M., and Diciotti, S. (2020). **Toward a more reliable characterization of fractal properties of the cerebral cortex of healthy subjects during the lifespan**. Scientific Reports (IN PRESS)
+
+Other related references:
+
 Marzi, C., Ciulli, S., Giannelli, M., Ginestroni, A., Tessa, C.,
 Mascalchi, M., and Diciotti, S. (2018). **Structural Complexity of
 the Cerebellum and Cerebral Cortex is Reduced in
@@ -217,8 +221,6 @@ Mascalchi, M., Inzitari, D., Salvadori, E., and Diciotti, S. (2019). **Fractal d
 for prediction of the cognitive performance in patients with
 small vessel disease and mild cognitive impairment**.
 NeuroImage: Clinical. PMID: [31491677](https://www.ncbi.nlm.nih.gov/pubmed/?term=Fractal+dimension+of+cerebral+white+matter%3A+A+consistent+feature+for+prediction+of+the+cognitive+performance+in+patients+with+small+vessel+disease+and+mild+cognitive+impairment)
-
-METODOLOGICO Software available at LINK
 
 
 
