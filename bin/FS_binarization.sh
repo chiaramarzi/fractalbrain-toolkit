@@ -168,8 +168,8 @@ then
 
 	LEFT_CEREBRAL_GM=lh_cerebralGM.nii.gz
 	RIGHT_CEREBRAL_GM=rh_cerebralGM.nii.gz
-	fslmaths ${IMG_PATH}/lh_frontalGM.nii.gz -add ${IMG_PATH}/lh_parietalGM.nii.gz -add ${IMG_PATH}/lh_temporalGM.nii.gz -add ${IMG_PATH}/lh_occipitalGM.nii.gz -add ${IMG_PATH}/lh_cingulateGM.nii.gz -add ${IMG_PATH}/lh_insulaGM.nii.gz ${IMG_PATH}/$LEFT_CEREBRAL_GM
-	fslmaths ${IMG_PATH}/rh_frontalGM.nii.gz -add ${IMG_PATH}/rh_parietalGM.nii.gz -add ${IMG_PATH}/rh_temporalGM.nii.gz -add ${IMG_PATH}/rh_occipitalGM.nii.gz -add ${IMG_PATH}/rh_cingulateGM.nii.gz -add ${IMG_PATH}/rh_insulaGM.nii.gz ${IMG_PATH}/$RIGHT_CEREBRAL_GM
+	fslmaths ${IMG_PATH}/lh_frontalGM.nii.gz -add ${IMG_PATH}/lh_parietalGM.nii.gz -add ${IMG_PATH}/lh_temporalGM.nii.gz -add ${IMG_PATH}/lh_occipitalGM.nii.gz -add ${IMG_PATH}/lh_cingulateGM.nii.gz -add ${IMG_PATH}/lh_insulaGM.nii.gz -bin -mul 255 ${IMG_PATH}/$LEFT_CEREBRAL_GM
+	fslmaths ${IMG_PATH}/rh_frontalGM.nii.gz -add ${IMG_PATH}/rh_parietalGM.nii.gz -add ${IMG_PATH}/rh_temporalGM.nii.gz -add ${IMG_PATH}/rh_occipitalGM.nii.gz -add ${IMG_PATH}/rh_cingulateGM.nii.gz -add ${IMG_PATH}/rh_insulaGM.nii.gz -bin -mul 255 ${IMG_PATH}/$RIGHT_CEREBRAL_GM
 	
 	for i in ${NO_LOBES[@]}
 	do
