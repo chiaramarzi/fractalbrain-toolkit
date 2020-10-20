@@ -195,7 +195,7 @@ python -m fractalbrain.fract2table prefix_list.txt NifTI_list.txt
 and open *FractalIndices_Results.csv*
 
 ## Authors
-* [**Chiara Marzi**](https://www.unibo.it/sitoweb/chiara.marzi3/en) - *Ph.D. student in Biomedical, Electrical and System Engineering, Dept. of Electrical, Electronic and Information Engineering – DEI "Guglielmo Marconi", University of Bologna, Bologna, Italy.* Email address: <chiara.marzi3@unibo.it>
+* [**Chiara Marzi**](https://www.unibo.it/sitoweb/chiara.marzi3/en) - *Post-doctoral fellow at Dept. of Electrical, Electronic and Information Engineering – DEI "Guglielmo Marconi", University of Bologna, Bologna, Italy.* Email address: <chiara.marzi3@unibo.it>
 
 * [**Stefano Diciotti**](https://www.unibo.it/sitoweb/stefano.diciotti/en) - *Associate Professor in Biomedical Engineering, Dept. of Electrical, Electronic and Information Engineering – DEI "Guglielmo Marconi", University of Bologna, Bologna, Italy.* Email address: <stefano.diciotti@unibo.it>
 
@@ -206,7 +206,7 @@ Bug reports should include sufficient information to reproduce the problem.
 ## Additional Information
 If you use and find the *fractalbrain toolkit* helpful, please cite it as:
 
-Marzi, C., Giannelli, M., Tessa, C., Mascalchi, M., and Diciotti, S. (2020). **Toward a more reliable characterization of fractal properties of the cerebral cortex of healthy subjects during the lifespan**. Scientific Reports (IN PRESS)
+Marzi, C., Giannelli, M., Tessa, C., Mascalchi, M., and Diciotti, S. (2020). **Toward a more reliable characterization of fractal properties of the cerebral cortex of healthy subjects during the lifespan**. Scientific Reports Scientific reports, 10(1), 16957. https://doi.org/10.1038/s41598-020-73961-w. PMID: [33046812](https://pubmed.ncbi.nlm.nih.gov/33046812/)
 
 Other related references:
 
