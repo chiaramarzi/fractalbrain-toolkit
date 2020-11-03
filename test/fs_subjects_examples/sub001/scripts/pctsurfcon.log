@@ -1,9 +1,0 @@
-Logfile for pctsurfcon
-Fri Nov 13 01:19:04 CET 2015
-setenv SUBJECTS_DIR /data/MRdata/freesurfer
-cd /data/MRdata/freesurfer/DICIOTTI_STEFANO/scripts
-/usr/local/freesurfer/bin/pctsurfcon
-$Id: pctsurfcon,v 1.11.2.1 2011/11/10 20:37:10 nicks Exp $
-Linux Alan 3.10.0-123.13.2.el7.x86_64 #1 SMP Thu Dec 18 14:09:13 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
-FREESURFER_HOME /usr/local/freesurfer
-Cleaning up
