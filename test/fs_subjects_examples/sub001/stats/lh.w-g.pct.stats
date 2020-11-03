@@ -2,7 +2,7 @@
 # 
 # generating_program mri_segstats
 # cvs_version $Id: mri_segstats.c,v 1.75.2.9 2013/02/16 00:09:33 greve Exp $
-# cmdline mri_segstats --in /data/MRdata/freesurfer/DICIOTTI_STEFANO/surf/lh.w-g.pct.mgh --annot DICIOTTI_STEFANO lh aparc --sum /data/MRdata/freesurfer/DICIOTTI_STEFANO/stats/lh.w-g.pct.stats --snr 
+# cmdline mri_segstats --in /data/MRdata/freesurfer/sub001/surf/lh.w-g.pct.mgh --annot DICIOTTI_STEFANO lh aparc --sum /data/MRdata/freesurfer/DICIOTTI_STEFANO/stats/lh.w-g.pct.stats --snr 
 # sysname  Linux
 # hostname Alan
 # machine  x86_64
@@ -10,11 +10,11 @@
 # anatomy_type surface
 # 
 # SUBJECTS_DIR /data/MRdata/freesurfer
-# subjectname DICIOTTI_STEFANO
-# Annot DICIOTTI_STEFANO lh aparc
-# ColorTable /tmp/mri_segstats.tmp.DICIOTTI_STEFANO.lh.83.ctab 
+# subjectname sub001
+# Annot sub001 lh aparc
+# ColorTable /tmp/mri_segstats.tmp.sub001.lh.83.ctab 
 # ColorTableTimeStamp 2015/11/12 23:35:12 
-# InVolFile  /data/MRdata/freesurfer/DICIOTTI_STEFANO/surf/lh.w-g.pct.mgh 
+# InVolFile  /data/MRdata/freesurfer/sub001/surf/lh.w-g.pct.mgh 
 # InVolFileTimeStamp  2015/11/12 23:35:10 
 # InVolFrame 0 
 # Only reporting non-empty segmentations
