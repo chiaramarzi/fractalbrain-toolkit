@@ -4,7 +4,7 @@
 # generating_program mris_anatomical_stats
 # cvs_version $Id: mris_anatomical_stats.c,v 1.72 2011/03/02 00:04:26 nicks Exp $
 # mrisurf.c-cvs_version $Id: mrisurf.c,v 1.693.2.7 2013/05/12 22:28:01 nicks Exp $
-# cmdline mris_anatomical_stats -a MASCALCHI_MARIO_20070324/label/rh.freeSurfer_lobes.annot -c MASCALCHI_MARIO_20070324/label/lobes_ColorTable_rh.txt -f MASCALCHI_MARIO_20070324/stats/rh.lobes.stats MASCALCHI_MARIO_20070324 rh 
+# cmdline mris_anatomical_stats -a sub002/label/rh.freeSurfer_lobes.annot -c MASCALCHI_MARIO_20070324/label/lobes_ColorTable_rh.txt -f MASCALCHI_MARIO_20070324/stats/rh.lobes.stats MASCALCHI_MARIO_20070324 rh 
 # sysname  Linux
 # hostname Alan
 # machine  x86_64
@@ -12,9 +12,9 @@
 # 
 # SUBJECTS_DIR /data/MRdata/SCA2/freesurfer
 # anatomy_type surface
-# subjectname MASCALCHI_MARIO_20070324
+# subjectname sub002
 # hemi rh
-# AnnotationFile MASCALCHI_MARIO_20070324/label/rh.freeSurfer_lobes.annot
+# AnnotationFile sub002/label/rh.freeSurfer_lobes.annot
 # AnnotationFileTimeStamp (null)
 # Measure Cortex, NumVert, Number of Vertices, 138990, unitless
 # Measure Cortex, WhiteSurfArea, White Surface Total Area, 88216.8, mm^2

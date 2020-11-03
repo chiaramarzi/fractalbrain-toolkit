@@ -4,7 +4,7 @@
 # generating_program mris_anatomical_stats
 # cvs_version $Id: mris_anatomical_stats.c,v 1.72 2011/03/02 00:04:26 nicks Exp $
 # mrisurf.c-cvs_version $Id: mrisurf.c,v 1.693.2.7 2013/05/12 22:28:01 nicks Exp $
-# cmdline mris_anatomical_stats -mgz -f ../stats/lh.BA.stats -b -a ./lh.BA.annot -c ./BA.ctab MASCALCHI_MARIO_20070324 lh white 
+# cmdline mris_anatomical_stats -mgz -f ../stats/lh.BA.stats -b -a ./lh.BA.annot -c ./BA.ctab sub002 lh white 
 # sysname  Linux
 # hostname Alan
 # machine  x86_64
@@ -12,7 +12,7 @@
 # 
 # SUBJECTS_DIR /data/MRdata/SCA2/data
 # anatomy_type surface
-# subjectname MASCALCHI_MARIO_20070324
+# subjectname sub002
 # hemi lh
 # AnnotationFile ./lh.BA.annot
 # AnnotationFileTimeStamp 2016/04/13 16:57:16
