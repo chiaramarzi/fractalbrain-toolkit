@@ -2,7 +2,7 @@
 # 
 # generating_program mri_segstats
 # cvs_version $Id: mri_segstats.c,v 1.75.2.9 2013/02/16 00:09:33 greve Exp $
-# cmdline mri_segstats --in /data/MRdata/SCA2/data/MASCALCHI_MARIO_20070324/surf/rh.w-g.pct.mgh --annot MASCALCHI_MARIO_20070324 rh aparc --sum /data/MRdata/SCA2/data/MASCALCHI_MARIO_20070324/stats/rh.w-g.pct.stats --snr 
+# cmdline mri_segstats --in /data/MRdata/SCA2/data/sub002/surf/rh.w-g.pct.mgh --annot MASCALCHI_MARIO_20070324 rh aparc --sum /data/MRdata/SCA2/data/MASCALCHI_MARIO_20070324/stats/rh.w-g.pct.stats --snr 
 # sysname  Linux
 # hostname Alan
 # machine  x86_64
@@ -10,11 +10,11 @@
 # anatomy_type surface
 # 
 # SUBJECTS_DIR /data/MRdata/SCA2/data
-# subjectname MASCALCHI_MARIO_20070324
-# Annot MASCALCHI_MARIO_20070324 rh aparc
-# ColorTable /tmp/mri_segstats.tmp.MASCALCHI_MARIO_20070324.rh.218.ctab 
+# subjectname sub002
+# Annot sub002 rh aparc
+# ColorTable /tmp/mri_segstats.tmp.sub002.rh.218.ctab 
 # ColorTableTimeStamp 2016/04/13 16:24:35 
-# InVolFile  /data/MRdata/SCA2/data/MASCALCHI_MARIO_20070324/surf/rh.w-g.pct.mgh 
+# InVolFile  /data/MRdata/SCA2/data/sub002/surf/rh.w-g.pct.mgh 
 # InVolFileTimeStamp  2016/04/13 16:24:33 
 # InVolFrame 0 
 # Only reporting non-empty segmentations

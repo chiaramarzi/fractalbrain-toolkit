@@ -4,7 +4,7 @@
 # generating_program mris_anatomical_stats
 # cvs_version $Id: mris_anatomical_stats.c,v 1.72 2011/03/02 00:04:26 nicks Exp $
 # mrisurf.c-cvs_version $Id: mrisurf.c,v 1.693.2.7 2013/05/12 22:28:01 nicks Exp $
-# cmdline mris_anatomical_stats -mgz -cortex ../label/rh.cortex.label -f ../stats/rh.aparc.stats -b -a ../label/rh.aparc.annot -c ../label/aparc.annot.ctab DICIOTTI_STEFANO rh white 
+# cmdline mris_anatomical_stats -mgz -cortex ../label/rh.cortex.label -f ../stats/rh.aparc.stats -b -a ../label/rh.aparc.annot -c ../label/aparc.annot.ctab sub001 rh white 
 # sysname  Linux
 # hostname Alan
 # machine  x86_64
@@ -12,7 +12,7 @@
 # 
 # SUBJECTS_DIR /data/MRdata/freesurfer
 # anatomy_type surface
-# subjectname DICIOTTI_STEFANO
+# subjectname sub001
 # hemi rh
 # AnnotationFile ../label/rh.aparc.annot
 # AnnotationFileTimeStamp 2015/11/13 01:07:41

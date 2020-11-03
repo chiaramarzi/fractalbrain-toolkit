@@ -2,7 +2,7 @@
 # 
 # generating_program mri_segstats
 # cvs_version $Id: mri_segstats.c,v 1.75.2.9 2013/02/16 00:09:33 greve Exp $
-# cmdline mri_segstats --seg mri/wmparc.mgz --sum stats/wmparc.stats --pv mri/norm.mgz --excludeid 0 --brainmask mri/brainmask.mgz --in mri/norm.mgz --in-intensity-name norm --in-intensity-units MR --subject MASCALCHI_MARIO_20070324 --surf-wm-vol --ctab /usr/local/freesurfer/WMParcStatsLUT.txt --etiv 
+# cmdline mri_segstats --seg mri/wmparc.mgz --sum stats/wmparc.stats --pv mri/norm.mgz --excludeid 0 --brainmask mri/brainmask.mgz --in mri/norm.mgz --in-intensity-name norm --in-intensity-units MR --subject sub002 --surf-wm-vol --ctab /usr/local/freesurfer/WMParcStatsLUT.txt --etiv 
 # sysname  Linux
 # hostname Alan
 # machine  x86_64
@@ -10,7 +10,7 @@
 # anatomy_type volume
 # 
 # SUBJECTS_DIR /data/MRdata/SCA2/data
-# subjectname MASCALCHI_MARIO_20070324
+# subjectname sub002
 # Measure lhCorticalWhiteMatter, lhCorticalWhiteMatterVol, Left hemisphere cortical white matter volume, 238597.534266, mm^3
 # Measure rhCorticalWhiteMatter, rhCorticalWhiteMatterVol, Right hemisphere cortical white matter volume, 239059.116054, mm^3
 # Measure CorticalWhiteMatter, CorticalWhiteMatterVol, Total cortical white matter volume, 477656.650320, mm^3
