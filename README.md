@@ -9,7 +9,7 @@ Please read the [LICENSE.md](./LICENSE.md) file before using fractalbrain.
 
 ## Installation
 ### Installing via Git
-Open a terminal window (for Unix users) or Anaconda Prompt (for Windows users), activate or create a Python environment (we recommend to create a new Python environment, see below) and type:
+Open a terminal window (for Unix users) or Anaconda Prompt (for Windows users), activate or create a Python environment with Python version 3.8.0 installed (we recommend to create a new Python environment, see below) and type:
 
 ```
 pip install git+https://github.com/chiaramarzi/fractalbrain-toolkit.git
@@ -18,7 +18,7 @@ pip install git+https://github.com/chiaramarzi/fractalbrain-toolkit.git
 ### Installing via GitHub download
 Download the latest version of fractalbrain-toolkit from LINK - you will get a file that looks like fractalbrain-toolkit-master.zip
 
-Open a terminal window (for Unix users) or Anaconda Prompt (for Windows users), activate or create a Python environment (we recommend to create a new Python environment, see below) and type:
+Open a terminal window (for Unix users) or Anaconda Prompt (for Windows users), activate or create a Python environment with Python version 3.8.0 installed (we recommend to create a new Python environment, see below) and type:
 
 ```
 pip install your-path/fractalbrain-toolkit-master.zip
@@ -37,7 +37,7 @@ conda activate ./fbt_env
 ```
 
 ```
-conda install python
+conda install python=3.8.0
 ```
 
 ### Uninstalling fractalbrain toolkit
