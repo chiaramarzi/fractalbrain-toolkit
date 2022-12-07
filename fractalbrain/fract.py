@@ -23,7 +23,7 @@ def fract( subjid, image ):
     start_time_to_log = time.asctime( time.localtime(time.time()) )
     NOW = datetime.datetime.now()
     DATE = NOW.strftime("%Y-%m-%d")
-    TIME = NOW.strftime("%H:%M:%S")
+    TIME = NOW.strftime("%H-%M-%S")
     
     ### LOG FILE SETTING ###
     imagepath = os.path.dirname(image)
