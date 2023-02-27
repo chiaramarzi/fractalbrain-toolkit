@@ -206,7 +206,7 @@ Bug reports should include sufficient information to reproduce the problem.
 ## Additional Information
 If you use and find the *fractalbrain toolkit* helpful, please cite it as:
 
-Marzi, C., Giannelli, M., Tessa, C., Mascalchi, M., and Diciotti, S. (2020). **Toward a more reliable characterization of fractal properties of the cerebral cortex of healthy subjects during the lifespan**. Scientific Reports Scientific reports, 10(1), 16957. https://doi.org/10.1038/s41598-020-73961-w. PMID: [33046812](https://pubmed.ncbi.nlm.nih.gov/33046812/)
+Marzi, C., Giannelli, M., Tessa, C., Mascalchi, M., and Diciotti, S. (2020). **Toward a more reliable characterization of fractal properties of the cerebral cortex of healthy subjects during the lifespan**. Scientific Reports, 10(1), 16957. https://doi.org/10.1038/s41598-020-73961-w. PMID: [33046812](https://pubmed.ncbi.nlm.nih.gov/33046812/)
 
 Other related references:
 
