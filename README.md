@@ -1,4 +1,5 @@
  # fractalbrain toolkit
+ [![DOI](https://zenodo.org/badge/247656018.svg)](https://zenodo.org/badge/latestdoi/247656018)
 
 *fractalbrain* is a simple, easy-to-use, and efficient toolkit for fractal analysis of the human brain - starting from Magnetic Resonance structural images (sMRI) -  and generic fractal structures. It computes the fractal dimension (FD), the minimal fractal scale (mfs) and the maximal fractal scale (Mfs) of the automatically selected fractal scaling window, that is the spatial window within which the structure manifests the highest self-similarity. *fractalbrain* fills the gap between the theory of fractal geometry and its numerical implementation, especially in the Neuroimaging field. It is able to easily run on FreeSurfer outputs.
 
